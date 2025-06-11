@@ -23,7 +23,7 @@ def read_all():
     return jsonify({"mensagens":mensagens})
 
 @bp_mensagens.route('/', methods=['POST'])
-à rota.
+
 def create():
     mensagem=request.get_json().get("conteudo")
     if mensagem=="":

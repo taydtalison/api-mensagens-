@@ -5,4 +5,4 @@ Objeto-Relacional, que, no Flask, é responsável por mapear as classes que são
 da classe Model do SQLAlchemy. Assim, mapeia as classes que herdam de Model para se tornarem tabelas do banco de dados. Por
 serem classes, a manipulação de dados pode ser feita de forma orientada a objetos, e não há necessidade de usar SQL diretamente.
 '''
-db = SQLAlchemy()#cria uma instância da classe SQLAlchemy, usada para gerenciar o banco de dados, ou seja, cria o banco de dados.
+db = SQLAlchemy()
